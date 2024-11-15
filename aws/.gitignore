@@ -1,0 +1,8 @@
+# Ignore Terraform state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore other local environment files
+.DS_Store
+*.log

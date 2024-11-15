@@ -1,0 +1,17 @@
+# Ignore Terraform state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore Function deployment packages
+modules/functions/functionapp/function_app.zip
+
+# Ignore other local environment files
+.DS_Store
+*.log
+
+.python_packages
+__pycache__
+.venv
+.vscode
+local.settings.json

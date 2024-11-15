@@ -1,0 +1,11 @@
+# Ignore Terraform state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore Function deployment packages
+modules/functions/function_code/function.zip
+
+# Ignore other local environment files
+.DS_Store
+*.log
