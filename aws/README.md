@@ -67,12 +67,8 @@ Apply environment-specific configurations by running:
 
     terraform apply -var-file=env/<environment>/<environment>.tfvars
 
-Replace dev with staging or prod as necessary to target other environments.
-
 ## Destroy Environment
 
 Destroy environment-specific configurations by running:
 
     terraform destroy -var-file=env/<environment>/<environment>.tfvars
-
-Replace dev with staging or prod as necessary to target other environments.
