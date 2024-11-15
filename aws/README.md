@@ -17,7 +17,7 @@ project-root/
 ├── init/                     # Initial state bucket creation for remote state
 │   └── main.tf               # Terraform config for state bucket
 ├── modules/                  # Reusable Terraform modules
-│   ├── apigw/                # API Management module
+│   ├── apigw/                # API Gateway module
 │   ├── dynamodb/             # Dynamo DB database module
 │   └── lambda/               # Lambda module
 ├── main.tf                   # Main Terraform config file
